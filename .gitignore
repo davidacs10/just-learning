@@ -1,1 +1,10 @@
 C-Programming/.vscode/
+
+*.txt
+*.swp
+# Ignorar binarios comunes
+*.exe          # Archivos ejecutables en Windows
+*.out          # Ejecutables por defecto en Linux/Mac
+*.bin          # Archivos binarios genéricos
+*.o            # Archivos objeto (.o)
+test.c
