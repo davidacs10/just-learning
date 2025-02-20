@@ -18,11 +18,10 @@ int main()
         else
             ++nother;
     }
-    printf("Digitos = ");
     for (i = 0; i < 10; i++)
-        printf("%d", ndigits[i]);
+        printf("Caracter %i = %d\n", i, ndigits[i]);
 
-    printf(" Numero de espacios en blanco = %d\nNumeros de caracteres = %d", nwhite, nother);
+    printf("Numero de espacios en blanco = %d\nNumeros de caracteres = %d", nwhite, nother);
 
     return 0;
 }
